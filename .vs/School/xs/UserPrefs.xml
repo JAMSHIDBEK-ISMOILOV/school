@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{0C21788A-D81E-4B13-848C-D567CBB7DF51}|Default">
+  <MonoDevelop.Ide.ItemProperties.School.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="School.Infrastructure/Persistence/EntityTypeConfigurations/UserEntityTypeConfiguration.cs">
+    <Files>
+      <File FileName="School.Domain/Admin.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Grade.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Science.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/Persistence/EntityTypeConfigurations/AdminEntityTypeConfiguration.cs" Line="17" Column="1" />
+      <File FileName="School.Domain/User.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Teacher.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Student.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/Persistence/EntityTypeConfigurations/GradeEntityTypeConfiguration.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/Persistence/EntityTypeConfigurations/ScienceEntityTypeConfiguration.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/Persistence/EntityTypeConfigurations/StudentEntityTypeConfiguration.cs" Line="17" Column="10" />
+      <File FileName="School.Infrastructure/Persistence/EntityTypeConfigurations/UserEntityTypeConfiguration.cs" Line="18" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="School" expanded="True">
+            <Node name="School.Api" expanded="True" />
+            <Node name="School.Application" expanded="True" />
+            <Node name="School.Domain" expanded="True" />
+            <Node name="School.Infrastructure" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.School.Api FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.School.Application FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.School.Domain FirstBuild="True" />
+</Properties>
