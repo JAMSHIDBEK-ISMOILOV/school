@@ -13,11 +13,29 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Abstractions\" />
+    <None Remove="UseCases\" />
+    <None Remove="UseCases\Teacher\" />
+    <None Remove="UseCases\Teacher\Command\" />
+    <None Remove="Exceptions\" />
+    <None Remove="UseCases\Student\" />
+    <None Remove="UseCases\Student\Command\" />
+    <None Remove="UseCases\Auth\" />
+    <None Remove="UseCases\Auth\Command\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstractions\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\Teacher\" />
+    <Folder Include="UseCases\Teacher\Command\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="UseCases\Student\" />
+    <Folder Include="UseCases\Student\Command\" />
+    <Folder Include="UseCases\Auth\" />
+    <Folder Include="UseCases\Auth\Command\" />
   </ItemGroup>
 </Project>

@@ -1,39 +1,82 @@
 ﻿<Properties StartupConfiguration="{0C21788A-D81E-4B13-848C-D567CBB7DF51}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="School.Domain/Entities/Admin.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.School.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="School.Application/UseCases/Auth/Command/LoginCommand.cs">
     <Files>
       <File FileName="School.Api/Program.cs" />
-      <File FileName="School.Domain/Entities/Admin.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Entities/Admin.cs" />
       <File FileName="School.Domain/Entities/Grade.cs" />
       <File FileName="School.Domain/Entities/Science.cs" />
       <File FileName="School.Domain/Entities/Student.cs" />
-      <File FileName="School.Domain/Entities/Teacher.cs" />
-      <File FileName="School.Domain/Entities/User.cs" Line="1" Column="1" />
+      <File FileName="School.Domain/Entities/Teacher.cs" Line="9" Column="1" />
+      <File FileName="School.Domain/Entities/User.cs" />
+      <File FileName="School.Application/Abstractions/IApplicationDbContext.cs" Line="7" Column="19" />
+      <File FileName="School.Infrastructure/Persistence/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/DependencyInjection.cs" Line="46" Column="1" />
+      <File FileName="School.Api/appsettings.json" Line="13" Column="31" />
+      <File FileName="School.Application/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="School.Api/Controllers/AuthController.cs" Line="38" Column="59" />
+      <File FileName="School.Application/UseCases/Teacher/Command/TeacherRegisterCommand.cs" />
+      <File FileName="School.Application/Abstractions/ICommand.cs" Line="1" Column="1" />
+      <File FileName="School.Application/Abstractions/IHashService.cs" />
+      <File FileName="School.Application/Abstractions/ICommandHandler.cs" Line="1" Column="1" />
+      <File FileName="School.Application/Exceptions/RegisterException.cs" Line="1" Column="1" />
+      <File FileName="School.Application/UseCases/Student/Command/StudentRegisterCommand.cs" />
+      <File FileName="School.Application/UseCases/Auth/Command/LoginCommand.cs" Line="32" Column="10" />
+      <File FileName="School.Application/Abstractions/ITokenService.cs" Line="6" Column="19" />
+      <File FileName="School.Application/Exceptions/LoginException.cs" Line="8" Column="16" />
+      <File FileName="School.Domain/Exceptions/EntityNotFoundException.cs" Line="6" Column="16" />
+      <File FileName="School.Infrastructure/Services/JWTService.cs" Line="28" Column="1" />
+      <File FileName="School.Infrastructure/Configurations/JWTConfiguration.cs" Line="12" Column="1" />
+      <File FileName="School.Infrastructure/Services/HashService.cs" Line="1" Column="1" />
+      <File FileName="School.Infrastructure/Services/CurrentUserService.cs" Line="26" Column="1" />
+      <File FileName="School.Application/Abstractions/ICurrentUserService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="School" expanded="True">
-            <Node name="School.Api" expanded="True" />
-            <Node name="School.Application" expanded="True" />
-            <Node name="School.Domain" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Admin.cs" selected="True" />
+            <Node name="School.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="School.Application" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Abstractions" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+              <Node name="UseCases" expanded="True">
+                <Node name="Auth" expanded="True">
+                  <Node name="Command" expanded="True">
+                    <Node name="LoginCommand.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Student" expanded="True">
+                  <Node name="Command" expanded="True" />
+                </Node>
+                <Node name="Teacher" expanded="True">
+                  <Node name="Command" expanded="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="School.Infrastructure" expanded="True" />
+            <Node name="School.Domain" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+            </Node>
+            <Node name="School.Infrastructure" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Configurations" expanded="True" />
+              <Node name="Persistence" expanded="True">
+                <Node name="EntityTypeConfiguration" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.School.Application FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.School.Domain FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.School.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.School.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
 </Properties>
